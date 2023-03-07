@@ -1,5 +1,5 @@
 {
-    "name": "Shopee Chrome Extension",
+    "name": "Product Ids Getter",
     "description": "Get shop and item ID from all open tabs with products - ready to paste into Excel.",
     "version": "1.0",
     "manifest_version": 3,
