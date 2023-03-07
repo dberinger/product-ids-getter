@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Inter, sans-serif;
+}
+
+.container {
+  width: 150px;
+}
+
+nav {
+  display: flex;
+  text-align: center;
+}
+
+.nav-tab {
+  width: 100%;
+  padding: 5px;
+}
+
+#shopee-icon {
+  background: #006666;
+}
+
+#shopee-tab {
+  background: #006666;
+}
+
+.tab {
+  text-align: center;
+  width: 150px;
+  height: 180px;
+}
+
+.header>* {
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+#open-tabs {
+  color: #fff;
+  font-weight: bold;
+}
+
+#copy-btn {
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+
+#textarea {
+  height: 20px;
+  width: 115px;
+  text-align: center;
+  font-size: smaller;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid #fff;
+  background-color: #fff;
+}
+
+.dl-buttons>button {
+  color: #fff;
+  background: #2673dd;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  margin: 10px;
+}
+
+button:hover {
+  box-shadow: 0px 1px 1px 1px rgba(115, 112, 112, 0.75);
+  -webkit-box-shadow: 0px 1px 1px 1px rgba(115, 112, 112, 0.75);
+  -moz-box-shadow: 0px 1px 1px 1px rgba(115, 112, 112, 0.75);
+  font-weight: bold;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+#fs-input-cat-id {
+  width: 40px;
+  padding: 3px;
+}
+
+.icon-action {
+  width: 15px;
+}
+
+.icon-btn {
+  background-color: #2673dd;
+  border: none;
+  padding: 3px;
+  border-radius: 6px;
+}
+
+.fs-heading {
+  padding: 10px;
+  font-size: 14px;
+  color: #2673dd;
+}
+
+.fs-actions-wrap {
+  padding-bottom: 15px;
+}
+
+.fs-actions-wrap > button {
+  margin-left: 5px;
+}
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 10px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 6px;
+  width: 6px;
+  left: 3px;
+  bottom: 2px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #ec5436;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #ec5436;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(8px);
+  -ms-transform: translateX(8px);
+  transform: translateX(8px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.setting {
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 10px;
+  width: 105px;
+  justify-content: space-between;
+}
+
+.setting p {
+  color: white;
+  font-size: smaller;
+  padding-right: 5px;
+}

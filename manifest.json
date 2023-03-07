@@ -1,0 +1,23 @@
+{
+    "name": "Shopee Chrome Extension",
+    "description": "Get shop and item ID from all open tabs with products - ready to paste into Excel.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": ["activeTab", "tabs", "scripting","storage"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "/images/si-16.png",
+        "32": "/images/si-32.png",
+        "48": "/images/si-48.png",
+        "128": "/images/si-128.png"
+      }
+    },
+    "icons": {
+        "16": "/images/si-16.png",
+        "32": "/images/si-32.png",
+        "48": "/images/si-48.png",
+        "128": "/images/si-128.png"
+    },
+    "options_page": "options.html"
+  }

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <nav>
+      <div id="shopee-icon" class="nav-tab">
+        <!--   here would be Shopee logo icon     -->
+      </div>
+    </nav>
+  </div>
+
+    <div class="content">
+      <div class="tab" id="shopee-tab">
+        <div class="settings">
+          <div class="setting">
+            <p>Reverse order</p>
+            <label class="switch">
+              <input id="reverse-order" type="checkbox">
+              <span class="slider round"></span>
+            </label>
+          </div>
+          <div class="setting">
+            <p>This window only</p>
+            <label class="switch">
+              <input id="active-window" type="checkbox">
+              <span class="slider round"></span>
+            </label>
+          </div>
+        </div>
+        <div class="header">
+          <p id="open-tabs"></p>
+          <button id="copy-btn">Copy</button>
+        </div>
+        <div class="text-area-wrap">
+          <textarea id="textarea" cols="15" rows="2" disabled></textarea>
+        </div>
+      </div>
+    </div>
+  <script src="popup.js"></script>
+</body>
+
+</html>
