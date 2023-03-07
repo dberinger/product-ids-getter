@@ -32,7 +32,10 @@ Main functionalities:
 
 
 ## Setup
-
+1. First, download [zipped extension](https://github.com/dberinger/product-ids-getter/releases/download/production-v1.0.0/product-ids-getter.zip) and unpack it.
+2. Then go to **chrome://extensions/** in Chrome browser and toggle on **Developer mode**.
+3. Still in Chrome extensions page, on the left, click **Load unpacked** and select unpacked folder.
+4. Now extension should be visible among others. Make sure to toggle it on and optionally pin to browser's top bar.
 
 
 ## Usage
@@ -40,4 +43,4 @@ To use the extension, first make sure to follow steps in Setup section above. On
 
 
 ## Project Status
-Project is: no longer being worked on_.
+Project is: _no longer being worked on_.
